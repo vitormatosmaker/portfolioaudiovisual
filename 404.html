@@ -1,293 +1,364 @@
 <!DOCTYPE html>
-
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Portfólio Audiovisual</title>
-<link href="https://fonts.googleapis.com/css2?family=Anton&amp;family=Montserrat:wght@400&amp;display=swap" rel="stylesheet"/>
-<style>
-    body {
-      margin: 0;
-      background-color: #0e0e0e;
-      font-family: 'Arial', sans-serif;
-      color: white;
-      text-align: center;
-    }
-
-    .whatsapp-button {
-      margin-top: 40px;
-      margin-bottom: 10px;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      background-color: #25D366;
-      color: white;
-      padding: 8px 60px;
-      border-radius: 40px;
-      text-decoration: none;
-      font-size: 22px;
-      font-weight: bold;
-      width: 271px;
-    }
-
-    .whatsapp-icon {
-      filter: drop-shadow(1px 1px 2px black);
-      margin-right: 6px; /* pequeno espaço entre ícone e texto */
-      width: 17%;
-    }
-
-    .whatsapp-text {
-      display: inline-block;
-      filter: drop-shadow(1px 1px 1px black);
-      font-family: 'Poppins', sans-serif;
-      font-size: 17px;
-    }
-
-    .whatsapp-subtext {
-      margin-top: 0;
-      margin-bottom: 50px;
-      color: #A4F6BE;
-      font-size: 10px;
-      letter-spacing: 1px;
-      font-family: 'Poppins', sans-serif;
-       font-weight: 400;
-    }
-
-    .banner-container {
-      position: relative;
-      max-width: 800px;
-      margin: 0 auto;
-    }
-
-    .banner-container img {
-      width: 100%;
-      height: auto;
-      border-radius: 0;
-    }
-
-    .title {
-      font-family: 'Anton', sans-serif;
-      font-size: 137px;
-      font-weight: 400;
-      margin: 8px;
-      color: white;
-      text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
-      letter-spacing: 2px;
-      position: relative;
-      top: -120px;
-      z-index: 2;
-    }
-
-    .subtitle {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 22px;
-      color: #c8c9ed;
-      margin-top: -160px;
-      letter-spacing: 3px;
-    }
-
-    .scroll-indicator {
-      font-size: 32px;
-      color: white;
-      margin-top: 15px;
-      animation: bounce 2s infinite;
-    }
-
-    @keyframes bounce {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(10px); }
-    }
-  
-@media (max-width: 768px) {
-  .title {
-    font-size: 48px;
-    top: -60px;
-  }
-  .subtitle {
-    font-size: 16px;
-    margin-top: -80px;
-  }
-  .whatsapp-button {
-    width: 90%;
-    padding: 10px 20px;
-    font-size: 18px;
-  }
-  .whatsapp-icon {
-    width: 24px;
-  }
-  .portfolio {
-    flex-direction: column;
-  }
-  .video-card {
-    width: 100%;
-  }
-  .team-member {
-    width: 90%;
-  }
-  .team-member img {
-    width: 100%;
-    height: auto;
-  }
-  header h1 {
-    font-size: 32px;
-  }
-  header p {
-    font-size: 16px;
-  }
-  .hero-content h1 {
-    font-size: 1.8rem;
-  }
-  .hero-content p {
-    font-size: 1rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .video-wrapper {
-    padding-top: 56.25%; /* 16:9 aspect ratio */
-  }
-  .modal-content {
-    width: 95%;
-    height: 60%;
-  }
-
-
-}
-</style>
-</head>
-<body>
-<a class="whatsapp-button" href="https://wa.me/5511948838756" target="_blank">
-<img alt="WhatsApp" class="whatsapp-icon" src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"/>
-<span class="whatsapp-text">WhatsApp</span>
-</a>
-<div class="whatsapp-subtext">CAPTAÇÃO | EDIÇÃO | PÓS PRODUÇÃO</div>
-<div class="banner-container">
-<img alt="Banner Produção Audiovisual" src="https://i.imgur.com/f1SLXjT.png"/>
-</div>
-<div class="title">PORTFÓLIO</div>
-<div class="subtitle">PRODUÇÃO AUDIOVISUAL</div>
-<div class="scroll-indicator">↓</div>
-</body>
-</html>
-<!DOCTYPE html>
-
-<html lang="pt-BR">
-<head>
+<meta charset="UTF-8">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&amp;display=swap" rel="stylesheet"/>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Portfólio Filmmaker</title>
-<style>
-    * { margin:0; padding:0; box-sizing:border-box; }
-    body { font-family: 'DIN2014';
-  background: radial-gradient(circle at 90% 10%, #00023d  0%, #02040a 80%); background-size: cover;
-  background-repeat: no-repeat;background-attachment: fixed; color:#eee; }
-  .hero { position:relative; width:100%; height:60vh; overflow:hidden; }
-    .hero video { position:absolute; top:50%; left:50%; width:85%; height:85%; object-fit:cover; transform:translate(-50%, -50%); filter:brightness(0.6); }
-    .hero-content { position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); text-align:center; color:#fff; z-index:2; }
-    .hero-content h1 { font-size:2.5rem; margin-bottom:0.5rem;}
-    .hero-content p { font-size:1.2rem; margin-bottom:1rem; }
-    .btn-contact { display:inline-block; background:#e91e63; color:#fff; padding:0.8rem 1.5rem; border-radius:30px; text-decoration:none; font-weight:600; transition:background 0.3s ease; }
-    .btn-contact:hover { background:#b31547; }
-    .portfolio { max-width: 1020px; margin: 2rem auto 4rem; padding: 0 1rem; display: flex; flex-wrap: wrap; justify-content: center; gap: 0.75rem; margin-bottom: -10px;}
-    .video-card { background: #222; border-radius: 8px; overflow: hidden; box-shadow: 0 0 10px #0006; position: relative; display: flex; flex-direction: column; transition: transform 0.4s ease; width: calc(33% - 0.75rem); }
-    .video-wrapper { position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; }
-    .video-card iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; z-index: 1; }
-    .video-card:hover { transform: scale(1.05); transition: transform 0.3s ease; }
-    footer { text-align:center; padding:1.5rem 0; background:#222; color:#999; }
-    section { padding: 2rem 0; text-align: center; }
-    h2 { font-size: 2rem; color: #ffffff; margin-bottom: 0rem;  font-family: 'Poppins', sans-serif;
-  font-weight: 600; /* Regular */}
+<!-- FONT AWESOME -->
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-    .description { font-size: 1rem; color: #c5c7f8; margin-bottom: 2rem; font-family: 'Poppins', sans-serif;
-  font-weight: 600;}
-    
-    /* Modal (video em alta qualidade) */
-    .modal { display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0, 0, 0, 0.8); z-index: 10; justify-content: center; align-items: center; }
-    .modal-content { position: relative; width: 80%; height: 80%; }
-    .modal iframe { width: 100%; height: 100%; border: none; }
-    .close { position: absolute; top: 10px; right: 20px; font-size: 30px; color: #fff; cursor: pointer; }
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfólio Audiovisual</title>
 
-    @media (max-width: 768px) {
-  .coringa h2 {
-    font-size: 20px; /* tamanho apenas para mobile */
-    font-family: 'Poppins', sans-serif;
-}
-
-.description  {
-    font-size: 10px; /* tamanho apenas para mobile */
-    font-family: 'Poppins', sans-serif;
-    color: #c5c7f8;
-}
-
- .mk_of h2 {
-     font-size: 20px; /* tamanho apenas para mobile */
-    font-family: 'Poppins', sans-serif;
-  }
-
-}
-  </style>
 </head>
 <body>
-<section>
+<a  href="https://wa.me/5511948838756"
+   class="whatsapp-float"
+   target="_blank">
+
+  <img src="https://i.imgur.com/Zmj9oOT.png" alt="WhatsApp">
+  <!-- NOTIFICAÇÃO -->
+  <span class="notif">1</span>
+</a>
+
+
+
+<!-- BLUR FIXO -->
+<div class="bottom-blur"></div>
+
+
+
+<!-- FLARES CINEMATOGRÁFICOS -->
+<div class="cinema-flare flare-1"></div>
+<div class="cinema-flare flare-2"></div>
+<div class="cinema-flare flare-3"></div>
+<!-- NAVBAR -->
+<div class="navbar">
+    <div class="logo">RECTOR</div>
+
+   <!-- BOTÃO MENU MOBILE -->
+    <div class="menu-toggle" id="menu-toggle">
+        ☰
+    </div>
+
+    <div class="nav-links" id="nav-links">
+        <a href="#Home">Home</a>
+        <a href="#Portfólio">Portfólio</a>
+        <a href="#Bastidores">Bastidores</a>
+         <a href="#Planos">Planos</a>
+       <a href="#Contato" class="btn">Contato</a>
+    </div>
+</div>
+
+<!-- BANNER -->
+<section id="Home" class="banner">
+
+    <div class="overlay"></div>
+
+    <!-- IMAGENS DO CARROSSEL -->
+    <img src="https://i.imgur.com/79G3mKh.jpeg" class="slide active">
+    <img src="https://i.imgur.com/p6jEHVA.jpeg" class="slide">
+    <img src="https://i.imgur.com/jccz7FJ.jpeg.jpeg" class="slide">
+<div class="fade-bottom"></div>
+
+  <div class="categorias">
+
+  <div class="categoria">
+    <img src="https://i.imgur.com/zPyhuqN.jpeg">
+    <p>BRIEFING</p>
+  </div>
+
+  <div class="categoria">
+    <img src="https://i.imgur.com/k1Pctno.jpeg">
+    <p>CAPTAÇÃO</p>
+  </div>
+
+  <div class="categoria">
+    <img src="https://i.imgur.com/3b0OnbK.jpeg">
+    <p>DIREÇÃO</p>
+  </div>
+
+  <div class="categoria">
+    <img src="https://i.imgur.com/xcTwFz9.jpeg">
+    <p>EDIÇÃO</p>
+  </div>
+
+  <div class="categoria">
+    <img src="https://i.imgur.com/znJA3Y9.jpeg">
+    <p>ENTREGA</p>
+  </div>
+</div>
+
+
+</section>
+
+<div class="cta-banner">
+  <a href="https://wa.me/5511948838756" class="btn-orcamento">FAÇA SEU ORÇAMENTO</a>
+
+</div>
+<section id="Portfólio">
 
 <span class="coringa">   <h2>TRABALHOS EM DESTAQUE</h2></span> 
-<p class="description">Confira alguns dos trabalhos que entregamos aos nossos clientes</p>
+<p class="descriptionn">Confira alguns dos trabalhos que entregamos aos nossos clientes</p>
+
 <div class="portfolio">
-<div class="video-card center" onclick="openModal('https://player.vimeo.com/video/1099462212?h=76e43c87b1&amp;title=0&amp;byline=0&amp;portrait=0')">
-<div class="video-wrapper">
-<iframe allow="autoplay; fullscreen" allowfullscreen="" src="https://player.vimeo.com/video/1099462212?h=76e43c87b1&amp;title=0&amp;byline=0&amp;portrait=0"></iframe>
-</div>
-</div>
-<div class="video-card" onclick="openModal('https://player.vimeo.com/video/1099468333?h=76e43c87b1&amp;title=0&amp;byline=0&amp;portrait=0')">
+<div class="video-card center" onclick="openModal('https://player.vimeo.com/video/1099468333?h=76e43c87b1&amp;title=0&amp;byline=0&amp;portrait=0')">
 <div class="video-wrapper">
 <iframe allow="autoplay; fullscreen" allowfullscreen="" src="https://player.vimeo.com/video/1099468333?h=76e43c87b1&amp;title=0&amp;byline=0&amp;portrait=0"></iframe>
 </div>
+
+ <!-- TEXO ABAIXO -->
+    <div class="video-info">
+
+        <p>
+             "Campanha para a marca Rosa 
+             Selvagem com a celebridade Juju Salimeni."
+        </p>
+
+    </div>
+
 </div>
-<div class="video-card" onclick="openModal('https://player.vimeo.com/video/1099468840?h=76e43c87b1&amp;title=0&amp;byline=0&amp;portrait=0')">
+
+<div class="video-card" onclick="openModal('https://player.vimeo.com/video/1189273179?h=76e43c87b1&amp;title=0&amp;byline=0&amp;portrait=0')">
 <div class="video-wrapper">
-<iframe allow="autoplay; fullscreen" allowfullscreen="" src="https://player.vimeo.com/video/1099468840?h=76e43c87b1&amp;title=0&amp;byline=0&amp;portrait=0"></iframe>
+<iframe allow="autoplay; fullscreen" allowfullscreen="" src="https://player.vimeo.com/video/1189273179?h=76e43c87b1&amp;title=0&amp;byline=0&amp;portrait=0"></iframe>
 </div>
+
+<!-- TEXO ABAIXO -->
+    <div class="video-info">
+
+        <p>
+         "Campanha para a gelateria Borelli com a participação da influenciadora Thátilla Coelho."
+
+    </div>
+
 </div>
-<!-- New videos (Row 2) with hidden title, profile, and channel -->
-<div class="video-card" onclick="openModal('https://player.vimeo.com/video/1099458457?p=0s')">
+<div class="video-card" onclick="openModal('https://player.vimeo.com/video/1189278924?p=0s')">
 <div class="video-wrapper">
-<iframe allow="autoplay; fullscreen" allowfullscreen="" src="https://player.vimeo.com/video/1099458457?p=0s&amp;title=0&amp;byline=0&amp;portrait=0"></iframe>
+<iframe allow="autoplay; fullscreen" allowfullscreen="" src="https://player.vimeo.com/video/1189278924?p=0s&amp;title=0&amp;byline=0&amp;portrait=0"></iframe>
 </div>
+<!-- TEXO ABAIXO -->
+    <div class="video-info">
+
+        <p>
+           "Produção de conteúdo de posicionamento para a Doutora Biomédica Marcela."
+
+        </p>
+
+    </div>
+
 </div>
-<div class="video-card" onclick="openModal('https://player.vimeo.com/video/1099459713?p=0s')">
+
+<div class="video-card" onclick="openModal('https://player.vimeo.com/video/1191342661?h=76e43c87b1&amp;title=0&amp;byline=0&amp;portrait=0')">  
+<div class="video-wrapper">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" src="https://player.vimeo.com/video/1191342661?h=76e43c87b1&amp;title=0&amp;byline=0&amp;portrait=0"></iframe>
+</div>
+
+<!-- TEXO ABAIXO -->
+    <div class="video-info">
+
+        <p>
+         "Produção de conteúdo para a doutora nutróloga Juliana Narciso."
+        </p>
+
+    </div>
+
+</div>
+<div class="video-card video-destaque-especial" onclick="openModal('https://player.vimeo.com/video/1190608148?p=0s')">
+<div class="video-wrapper">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" src="https://player.vimeo.com/video/1190608148?p=0s&amp;title=0&amp;byline=0&amp;portrait=0"></iframe>
+</div>
+<!-- TEXO ABAIXO -->
+    <div class="video-info">
+
+        <p>
+             "Essa produção mostra um pouco da experiência do cliente das lojas Tayti gelateria."
+
+        </p>
+
+    </div>
+
+</div>
+
+
+<div class="video-card segunda-linha" onclick="openModal('https://player.vimeo.com/video/1189273774?h=76e43c87b1&amp;title=0&amp;byline=0&amp;portrait=0')">
+<div class="video-wrapper">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" src="https://player.vimeo.com/video/1189273774?h=76e43c87b1&amp;title=0&amp;byline=0&amp;portrait=0"></iframe>
+</div>
+
+<!-- TEXO ABAIXO -->
+    <div class="video-info">
+
+        <p>
+         "Produção da campanha de Natal da confeitaria Fábrica de Love."
+        </p>
+
+    </div>
+
+</div>
+
+
+
+<div class="video-card segunda-linha hidden-mobile" onclick="openModal('https://player.vimeo.com/video/1099462212?p=0s')">
+<div class="video-wrapper">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" src="https://player.vimeo.com/video/1099462212?p=0s&amp;title=0&amp;byline=0&amp;portrait=0"></iframe>
+</div>
+<!-- TEXO ABAIXO -->
+    <div class="video-info">
+
+        <p>
+           "Registramos os bastidores da participação da Juju Salimeni no circo do Tirulipa."
+
+        </p>
+
+    </div>
+
+</div>
+
+<!-- New row with 3 new videos -->
+<div class="video-card segunda-linha hidden-mobile" onclick="openModal('https://player.vimeo.com/video/1189274042?p=0s')">
+<div class="video-wrapper">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" src="https://player.vimeo.com/video/1189274042?p=0s&amp;title=0&amp;byline=0&amp;portrait=0"></iframe>
+</div>
+
+<!-- TEXO ABAIXO -->
+    <div class="video-info">
+
+        <p>
+         "Conteúdo apresentando a produção da confeitaria Fábrica de Love." 
+
+        </p>
+
+    </div>
+
+</div>
+
+<div class="video-card segunda-linha  hidden-mobile" onclick="openModal('https://player.vimeo.com/video/1189273549?p=0s')">
+<div class="video-wrapper">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" src="https://player.vimeo.com/video/1189273549?p=0s&amp;title=0&amp;byline=0&amp;portrait=0"></iframe>
+</div>
+
+<!-- TEXO ABAIXO -->
+    <div class="video-info">
+
+        <p>
+         "Produção de conteúdo para a fábrica de love no período de Páscoa." 
+
+        </p>
+
+    </div>
+
+</div>
+
+<div class="video-card segunda-linha hidden-mobile" onclick="openModal('https://player.vimeo.com/video/1099459713?p=0s')">
 <div class="video-wrapper">
 <iframe allow="autoplay; fullscreen" allowfullscreen="" src="https://player.vimeo.com/video/1099459713?p=0s&amp;title=0&amp;byline=0&amp;portrait=0"></iframe>
 </div>
+<!-- TEXO ABAIXO -->
+    <div class="video-info">
+
+        <p>
+         "Cobertura TV fama no show de lançamento do Mumuzinho com a Erika Scheneider."
+        </p>
+
+    </div>
+
 </div>
-<div class="video-card" onclick="openModal('https://player.vimeo.com/video/1099461212?p=0s')">
-<div class="video-wrapper">
-<iframe allow="autoplay; fullscreen" allowfullscreen="" src="https://player.vimeo.com/video/1099461212?p=0s&amp;title=0&amp;byline=0&amp;portrait=0"></iframe>
-</div>
-</div>
-<!-- New row with 3 new videos -->
-<div class="video-card" onclick="openModal('https://player.vimeo.com/video/1099464291?p=0s')">
-<div class="video-wrapper">
-<iframe allow="autoplay; fullscreen" allowfullscreen="" src="https://player.vimeo.com/video/1099464291?p=0s&amp;title=0&amp;byline=0&amp;portrait=0"></iframe>
-</div>
-</div>
-<div class="video-card" onclick="openModal('https://player.vimeo.com/video/1099542612?p=0s')">
+
+<div class="video-card segunda-linha hidden-mobile" onclick="openModal('https://player.vimeo.com/video/1099542612?p=0s')">
 <div class="video-wrapper">
 <iframe allow="autoplay; fullscreen" allowfullscreen="" src="https://player.vimeo.com/video/1099542612?p=0s&amp;title=0&amp;byline=0&amp;portrait=0"></iframe>
 </div>
+
+<!-- TEXO ABAIXO -->
+    <div class="video-info">
+
+        <p>
+           "Treino completo de quadríceps da Juju Salimeni na academia Iron Berg Alphaville."
+        </p>
+
+    </div>
+
 </div>
-<div class="video-card" onclick="openModal('https://player.vimeo.com/video/1099469570?p=0s')">
+
+<div class="video-card segunda-linha hidden-mobile" onclick="openModal('https://player.vimeo.com/video/1189280115?p=0s')">
 <div class="video-wrapper">
-<iframe allow="autoplay; fullscreen" allowfullscreen="" src="https://player.vimeo.com/video/1099469570?p=0s&amp;title=0&amp;byline=0&amp;portrait=0"></iframe>
+<iframe allow="autoplay; fullscreen" allowfullscreen="" src="https://player.vimeo.com/video/1189280115?p=0s&amp;title=0&amp;byline=0&amp;portrait=0"></iframe>
+</div>
+<!-- TEXO ABAIXO -->
+    <div class="video-info">
+
+        <p>
+            "Takes para divulgação dos produtos de Páscoa da confeitaria Fábrica de Love."
+      </p>
+
+    </div>
+
+</div>
+<div class="video-card segunda-linha hidden-mobile " onclick="openModal('https://player.vimeo.com/video/1099461212?p=0s')">
+<div class="video-wrapper">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" src="https://player.vimeo.com/video/1099461212?p=0s&amp;title=0&amp;byline=0&amp;portrait=0"></iframe>
+</div>
+
+<!-- TEXO ABAIXO -->
+    <div class="video-info">
+
+        <p>
+            "Acompanhamos o Pablo Marçal candidato a prefeitura de SP na favela Paraisópolis."
+
+        </p>
+
+    </div>
+
+</div>
+<div class="video-card segunda-linha hidden-mobile" onclick="openModal('https://player.vimeo.com/video/1099464291?p=0s')">
+<div class="video-wrapper">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" src="https://player.vimeo.com/video/1099464291?p=0s&amp;title=0&amp;byline=0&amp;portrait=0"></iframe>
+</div>
+<!-- TEXO ABAIXO -->
+    <div class="video-info">
+
+        <p>
+            "Viagem exclusiva para os membros do Capital black Master Mind do Nezio Monteiro." 
+        </p>
+
+    </div>
+
+</div>
+<!-- New videos (Row 2) with hidden title, profile, and channel -->
+<div class="video-card  segunda-linha hidden-mobile" onclick="openModal('https://player.vimeo.com/video/1099468840?p=0s')">
+<div class="video-wrapper">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" src="https://player.vimeo.com/video/1099468840?p=0s&amp;title=0&amp;byline=0&amp;portrait=0"></iframe>
+</div>
+
+<!-- TEXO ABAIXO -->
+    <div class="video-info">
+
+        <p>
+         "Aftermoovie do evento presencial Underground no kartódromo Aldeia da Serra."  
+
+        </p>
+
+    </div>
+
 </div>
 </div>
+
+<div class="ver-mais-container">
+  <span class="ver-mais-texto" onclick="mostrarMaisVideos()">
+        Ver mais
+       
+   <span class="seta-vermelha">ˬ</span>
+    </span>
+    
 </div>
 </section>
 <!-- Seção "Making Of" -->
-<section>
+
+<section id="Bastidores">
 <div class="mk_of"> <h2>MAKING OF</h2> </div>
 <p class="description">Confira como foram os bastidores de algumas filmagens  </p>
+
 <div class="portfolio">
 <!-- Primeiro vídeo de making of -->
 <div class="video-card" onclick="openModal('https://player.vimeo.com/video/1099554358?h=76e43c87b1&amp;title=0&amp;byline=0&amp;portrait=0')">
@@ -301,6 +372,7 @@
 <iframe allow="autoplay; fullscreen" allowfullscreen="" src="https://player.vimeo.com/video/1099553815?h=76e43c87b1&amp;title=0&amp;byline=0&amp;portrait=0"></iframe>
 </div>
 </div>
+
 <!-- Terceiro vídeo de making of -->
 <div class="video-card" onclick="openModal('https://player.vimeo.com/video/1099555900?h=76e43c87b1&amp;title=0&amp;byline=0&amp;portrait=0')">
 <div class="video-wrapper">
@@ -314,35 +386,48 @@
 </div>
 </div>
 <!-- Quinto vídeo de making of -->
-<div class="video-card" onclick="openModal('https://player.vimeo.com/video/1099555467?h=76e43c87b1&amp;title=0&amp;byline=0&amp;portrait=0')">
+<div class="video-card hidden-mobilee" onclick="openModal('https://player.vimeo.com/video/1099555467?h=76e43c87b1&amp;title=0&amp;byline=0&amp;portrait=0')">
 <div class="video-wrapper">
 <iframe allow="autoplay; fullscreen" allowfullscreen="" src="https://player.vimeo.com/video/1099555467?h=76e43c87b1&amp;title=0&amp;byline=0&amp;portrait=0"></iframe>
 </div>
 </div>
+
 <!-- Sexto vídeo de making of -->
-<div class="video-card" onclick="openModal('https://player.vimeo.com/video/1099756489?h=76e43c87b1&amp;title=0&amp;byline=0&amp;portrait=0')">
+<div class="video-card hidden-mobilee" onclick="openModal('https://player.vimeo.com/video/1189288930?h=76e43c87b1&amp;title=0&amp;byline=0&amp;portrait=0')">
 <div class="video-wrapper">
-<iframe allow="autoplay; fullscreen" allowfullscreen="" src="https://player.vimeo.com/video/1099756489?h=76e43c87b1&amp;title=0&amp;byline=0&amp;portrait=0"></iframe>
+<iframe allow="autoplay; fullscreen" allowfullscreen="" src="https://player.vimeo.com/video/1189288930?h=76e43c87b1&amp;title=0&amp;byline=0&amp;portrait=0"></iframe>
 </div>
 </div>
+<div class="video-card hidden-mobilee" onclick="openModal('https://player.vimeo.com/video/1189289338?h=76e43c87b1&amp;title=0&amp;byline=0&amp;portrait=0')">
+<div class="video-wrapper">
+<iframe allow="autoplay; fullscreen" allowfullscreen="" src="https://player.vimeo.com/video/1189289338?h=76e43c87b1&amp;title=0&amp;byline=0&amp;portrait=0"></iframe>
+</div>
+</div>
+
 <!-- Sétimo vídeo de making of -->
-<div class="video-card" onclick="openModal('https://player.vimeo.com/video/1099795275?h=76e43c87b1&amp;title=0&amp;byline=0&amp;portrait=0')">
+<div class="video-card hidden-mobilee" onclick="openModal('https://player.vimeo.com/video/1099795275?h=76e43c87b1&amp;title=0&amp;byline=0&amp;portrait=0')">
 <div class="video-wrapper">
 <iframe allow="autoplay; fullscreen" allowfullscreen="" src="https://player.vimeo.com/video/1099795275?h=76e43c87b1&amp;title=0&amp;byline=0&amp;portrait=0"></iframe>
 </div>
 </div>
 <!-- Oitavo vídeo de making of -->
 <!-- Novo vídeo de making of -->
-<div class="video-card" onclick="openModal('https://player.vimeo.com/video/1099778246?h=76e43c87b1&amp;title=0&amp;byline=0&amp;portrait=0')">
+<div class="video-card hidden-mobilee" onclick="openModal('https://player.vimeo.com/video/1099778246?h=76e43c87b1&amp;title=0&amp;byline=0&amp;portrait=0')">
 <div class="video-wrapper">
 <iframe allow="autoplay; fullscreen" allowfullscreen="" src="https://player.vimeo.com/video/1099778246?h=76e43c87b1&amp;title=0&amp;byline=0&amp;portrait=0"></iframe>
 </div>
 </div>
-<div class="video-card" onclick="openModal('https://player.vimeo.com/video/1099778841?h=76e43c87b1&amp;title=0&amp;byline=0&amp;portrait=0')">
+<div class="video-card hidden-mobilee" onclick="openModal('https://player.vimeo.com/video/1099778841?h=76e43c87b1&amp;title=0&amp;byline=0&amp;portrait=0')">
 <div class="video-wrapper">
 <iframe allow="autoplay; fullscreen" allowfullscreen="" src="https://player.vimeo.com/video/1099778841?h=76e43c87b1&amp;title=0&amp;byline=0&amp;portrait=0"></iframe>
 </div>
 </div>
+<div class="ver-mais-containerr">
+  <span class="ver-mais-textoo" onclick="mostrarMaisVideoss()">
+        Ver mais
+       
+   <span class="seta-vermelhaa">ˬ</span>
+    </span>
 </div>
 </section>
 <!-- Modal -->
@@ -352,7 +437,2719 @@
 <iframe allow="autoplay; fullscreen" allowfullscreen="" id="modalVideo" src=""></iframe>
 </div>
 </div>
+
+    <!-- =========================
+        PLANOS
+========================= -->
+<section id="Planos"  class="planos-carreira">
+
+  <div class="planos-header">
+
+    <h2>
+      Escolha o modelo que mais se aproxima
+      <span>do seu momento.</span>
+    </h2>
+
+    <div class="planos-badge">
+      Todos os formatos passam por avaliação antes da contratação.
+    </div>
+
+  </div>
+
+  <div class="planos-grid">
+
+    <!-- CARD 1 -->
+    <div class="plano-card" id="card-essencial">
+
+      <div class="plano-topo">
+
+<div class="plano-icon essencial">
+  <img src="https://i.imgur.com/Boz2nVY.png" alt="Ícone">
+</div>
+        <h3>Essencial</h3>
+
+      </div>
+
+      <div class="plano-conteudo">
+
+        <h4>
+          Estrutura inicial para
+          posicionamento digital
+        </h4>
+
+        <p>
+          Se você quer começar a produzir seus conteúdos e ter a sua equipe de produção audioovisual.
+        </p>
+
+        <ul>
+
+          <li>Equipe: 1 filmmaker e 1 diretora</li>
+          <li>Planejamento de conteúdos</li>
+          <li>Direção criativa e roteirização</li>
+          <li>Captação e Edição profissional</li>
+          <li>Modelo flexível, sem recorrência</li>
+      
+
+        </ul>
+
+        <span class="mini-tag-esquerda">
+          PERSONALIZADO
+        </span>
+
+      </div>
+
+      <a href="https://wa.me/5511948838756"
+         target="_blank"
+         class="btn-plano">
+
+         QUERO UM DIAGNÓSTICO
+
+      </a>
+
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="plano-card destaque" id="card-dominancia">
+
+      <div class="plano-topo">
+
+<div class="plano-icon essencial">
+  <img src="https://i.imgur.com/Boz2nVY.png" alt="Ícone">
+</div>
+
+        <h3>Dominância</h3>
+
+      </div>
+
+      <div class="plano-conteudo">
+
+        <h4>
+          Autoridade máxima e posicionamento de referência
+        </h4>
+
+        <p>
+          Indicado para você que deseja ser referência no seu mercado, se tornar uma autoridade e vai gerar demanda constante
+        </p>
+
+        <ul>
+
+          <li>Equipe: 1 filmmaker e 1 diretora</li>
+          <li>Planejamento de conteúdos</li>
+          <li>Direção criativa e roteirização</li>
+          <li>Curadoria de looks</li>
+          <li>Captação e Edição profissional</li>
+          <li>Capa para cada conteúdo</li>
+          <li>Sugestão de legendas</li>
+          <li>Modelo de Recorrência</li>
+
+
+        
+
+        </ul>
+
+        <span class="mini-tag">
+          PERSONALIZADO
+        </span>
+
+      </div>
+
+      <a href="https://wa.me/5511948838756"
+         target="_blank"
+         class="btn-plano">
+
+         QUERO UM DIAGNÓSTICO
+
+      </a>
+
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="plano-card">
+
+      <div class="plano-topo">
+
+       <div class="plano-icon essencial">
+  <img src="https://i.imgur.com/Boz2nVY.png" alt="Ícone">
+</div>
+
+        <h3>Personalizado</h3>
+
+      </div>
+
+      <div class="plano-conteudo">
+
+        <h4>
+          Campanhas publicitárias e projetos especiais
+        </h4>
+
+        <p>
+          Projetos únicos para lideres de mercado, diretores empresas e produtoras.
+        </p>
+
+        <ul>
+
+          <li>Equipe conforme o projeto</li>
+          <li>Prioridade na execução</li>
+          <li>Construção de autoridade nacional e internaiconal</li>
+          <li>Modelo Flexível ou modelo recorrência</li>
+        
+        </ul>
+
+       <span class="mini-tag mini-tag-direita">
+          PERSONALIZADO
+        </span>
+
+      </div>
+
+      <a href="https://wa.me/5511948838756"
+         target="_blank"
+         class="btn-planoo">
+
+         QUERO UM DIAGNÓSTICO
+
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+  <!-- =========================
+QUEM SOMOS
+========================= -->
+
+<section id="Somos" class="quem-somos">
+
+  <div class="qs-container">
+
+    <!-- FOTO -->
+    <div class="qs-foto">
+
+      <img src="https://i.imgur.com/B5appHN.jpeg" alt="Vitor Matos">
+  <!-- FUNÇÃO -->
+     
+    </div>
+
+    <!-- TEXTO -->
+    <div class="qs-texto">
+
+      <h2>QUEM SOMOS?</h2>
+
+      <p>
+        Vitor Matos e Stefany Lima, somos noivos e apaixonados pelo audiovisual.
+      </p>
+
+      
+      <p>Lideramos uma produtora de mídia com foco em posicionamento de marca e temos uma visão clara: Buscamos aumentar a percepção de valor dos nossos clientes para que eles possam vender mais caro e atrair os clientes certos. Mais do que produzir vídeos e filmes, temos um desejo genuíno em fazer a diferença no negócio de vocês, com respeito, compromisso, visão empresarial e criativa.</p>
+
+     <p>Acreditamos na produção cinematográfica, sempre vamos nos esforçar para criar um trabalho original, e personalizado. É isso que nos move, é isso que nos mantém acordados de dia, e muitas vezes, à noite.</p>
+
+
+    </div>
+
+  </div>
+  
+
+
+
+<!-- =========================
+EMPRESAS / LOGOS Empresas que confiam em nossos serviços audiovisuais
+========================= -->
+
+<section class="empresas">
+
+  <h2>
+   CLIENTES
+  </h2>
+
+  <div class="logos-slider">
+
+    <div class="logos-track">
+
+      
+      <!-- LOGOS -->
+      <img src="https://i.postimg.cc/kgGSFYn2/Background-Eraser.png" alt="Crescieperdi">
+
+      <img src="https://i.postimg.cc/Bn2crKG6/Background-Eraser.png" alt="Borelli">
+
+      <img src="https://i.postimg.cc/02DVs3Yw/Background-Eraser-2.png" alt="Tatuapeconceito">
+
+      <img src="https://i.postimg.cc/SN2q6cBx/Background-Eraser-4.png" alt="LoysClinic">
+
+      <img src="https://i.postimg.cc/mDkdWgwX/Background-Eraser-8.png" alt="Willian Celso">
+
+      <img src="https://i.postimg.cc/fRvwyM4x/Background-Eraser-6.png" alt="Trapezio gelateria">
+
+      <img src="https://i.postimg.cc/0NZLRQgg/Background-Eraser-5.png" alt="Tayti">
+
+      <img src="https://i.postimg.cc/LsM1K9tZ/Background-Eraser-9.png" alt="PLATAFORMAGLOBAL">
+
+      <!-- DUPLICAÇÃO PARA LOOP INFINITO -->
+
+      <img src="https://i.postimg.cc/kgGSFYn2/Background-Eraser.png" alt="Crescieperdi">
+
+      <img src="https://i.postimg.cc/Bn2crKG6/Background-Eraser.png" alt="Borelli">
+
+      <img src="https://i.postimg.cc/fRvwyM4x/Background-Eraser-6.png" alt="Tatuapeconceito">
+
+      <img src="https://i.postimg.cc/SN2q6cBx/Background-Eraser-4.png" alt="LoysClinic">
+
+      <img src="https://i.postimg.cc/mDkdWgwX/Background-Eraser-8.png" alt="Willian Celso">
+
+      <img src="https://i.postimg.cc/YC8V5Z7t/Background-Eraser-6.png" alt="Trapezio gelateria">
+
+      <img src="https://i.postimg.cc/0NZLRQgg/Background-Eraser-5.png" alt="Tayti">
+
+      <img src="https://i.postimg.cc/LsM1K9tZ/Background-Eraser-9.png" alt="PLATAFORMAGLOBAL">
+
+    </div>
+
+  </div>
+
+</section>
+</section>
+<!-- =========================
+RODAPÉ
+========================= -->
+
+<footer id="Contato"class="footer">
+
+  <!-- PRIMEIRA CAMADA -->
+  <div class="footer-top">
+
+    <div class="footer-grid">
+
+      <!-- COLUNA 1 -->
+      <div class="footer-col">
+
+        <h3>Início</h3>
+
+        <a href="#Home">Home</a>
+        <a href="#Portfólio">Portfólio</a>
+        <a href="#Contato">Contato</a>
+
+      </div>
+
+      <!-- COLUNA 2 -->
+      <div class="footer-col">
+
+        <h3>Sobre nós</h3>
+
+        <a href="#Somos">Quem somos</a>
+        <a href="#bastidores">Projetos</a>
+        <a href="#Planos">Orçamento</a>
+
+      </div>
+
+      <!-- COLUNA 3 -->
+      <div class="footer-col">
+
+        <h3>Suporte</h3>
+
+        <a href="faq.html">FAQ</a>
+        <a href="https://wa.me/5511948838756">WhatsApp</a>
+      <a href="mailto:rectorfilms1@gmail.com">
+  E-mail
+</a>
+
+      </div>
+
+      <!-- COLUNA 4 -->
+      <div class="footer-col">
+
+        <h3>Informações</h3>
+
+        <p>
+          Produções cinematográficas, vídeos comerciais,
+          posicionamento de marca e filmes publicitários.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- SEGUNDA CAMADA -->
+  <div class="footer-bottom">
+
+    <!-- LOGO -->
+    <div class="footer-logo">
+
+      RECTOR
+
+    </div>
+
+
+    <!-- REDES SOCIAIS -->
+    <div class="footer-social">
+
+     <a href="https://www.instagram.com/euvitorcine?igsh=N3ZpZ2RyOGN0djU1"
+   target="_blank">
+  <i class="fab fa-instagram"></i>
+</a>
+      <a href="https://youtube.com/@rectorfilms?si=urB3ADBBRmKnXm8L">
+        <i class="fab fa-youtube"></i>
+      </a>
+
+    </div>
+
+     <!-- COPYRIGHT -->
+    <div class="footer-copy">
+
+      Copyright © 2026 Todos os direitos reservados.
+
+    </div>
+
+  </div>
+
+</footer>
+
+
+</body>
+</html>
+
+
+<style>
+     /* Importing the Poppins font from Google Fonts */
+      @import url('https://fonts.google.com/selection');
+   
+      * { margin:0; padding:0; box-sizing:border-box; }
+
+    body {  font-family: Poppins, sans-serif;
+    margin: 0;
+      padding: 0;
+      background-color: #0b0f14;
+      color: white;
+      font-weight: 400;
+  background-size: cover;
+  background-repeat: no-repeat;background-attachment: fixed; color:#eee; }
+
+.mk_of h2{
+    font-size: 28px;
+    color: white;
+    margin-bottom: 0rem;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    margin-top: 42px;
+    font-weight: 600; 
+}
+
+
+    .details {
+      background-color: #6495ED;
+      border-radius: 8px;
+      margin-bottom: 10px;
+      padding: 10px 15px;
+      cursor: pointer;
+      overflow: hidden;
+    }
+
+    .summary {
+      font-size: 17px;
+      outline: none;
+     font-family: 'Poppins', sans-serif;
+     text-transform: uppercase;
+    }
+
+    .summary::-webkit-details-marker {
+      margin-right: 10px;
+    }
+
+    .details[open] summary {
+      color: #fff;
+    }
+
+    .details p {
+      margin-top: 10px;
+      color: #f0f0f0;
+      animation: fadeExpand 0.4s ease-in-out;
+     font-family: 'Poppins', sans-serif;
+    }
+    footer { text-align:center; background:#222; color:#999; }
+    section { padding: 0rem 0; text-align: center; }
+
+   .coringa h2 { font-size: 28px; 
+        color: white;       
+         margin-bottom: 0rem; 
+         font-family: 'Poppins'; 
+         text-transform: uppercase;
+         margin-top: 150px;
+        font-weight: 600; /* Regular */}
+
+
+    .descriptionn{ 
+    font-size: 1rem;
+    color: #d8d8d8;
+    margin-bottom: 2rem; 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+        .description{ 
+    font-size: 1rem;
+    color: #d8d8d8;
+    margin-bottom: 2rem; 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+}
+
+    /* Modal (video em alta qualidade) */
+    .modal { display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0, 0, 0, 0.8); z-index: 10; justify-content: center; align-items: center; }
+    .modal-content { position: relative; width: 80%; height: 80%; }
+    .modal iframe { width: 100%; height: 100%; border: none; }
+    .close { position: absolute; top: 10px; right: 20px; font-size: 30px; color: #fff; cursor: pointer; }
+
+.hero {
+   position:
+    relative; 
+    width:100%; 
+    height:60vh; 
+    overflow:hidden; }
+
+    .hero video { 
+        position:absolute;
+     top:50%;
+      left:50%; 
+      width:85%; 
+      height:85%; 
+      object-fit:
+      cover; 
+      transform:translate(-50%, -50%); 
+      filter:brightness(0.6); }
+
+    .hero-content { 
+        position:absolute; 
+        top:50%; l
+        eft:50%; 
+        transform:translate(-50%, -50%); 
+        text-align:center; 
+        color:#fff;
+         z-index:2; }
+
+    .hero-content h1 {
+     font-size:2.5rem; 
+     margin-bottom:0.5rem;}
+
+    .hero-content p { 
+        font-size:1.2rem; 
+        margin-bottom:1rem; }
+
+    .btn-contact { display:inline-block; 
+        background:#e91e63;
+         color:#fff; 
+         padding:0.8rem 1.5rem;
+          border-radius:30px; 
+          text-decoration:none;
+           font-weight:600;
+            transition:background 0.3s ease; }
+
+    .btn-contact:hover { background:#b31547; }
+
+    .portfolio {
+     max-width: 1500px; 
+        margin: 2rem auto 4rem; 
+        padding: 0 1rem; 
+        display: flex;
+        row-gap: 0px;
+         flex-wrap: wrap; 
+         justify-content: center; 
+          gap: 14px; /* ESPAÇO ENTRE OS CARDS */
+         margin-bottom: -10px; 
+
+     }
+
+    .video-card {
+       background: transparent;
+        border-radius: 8px; 
+        overflow: hidden; 
+        box-shadow: none; 
+        position: relative; 
+        display: flex; 
+        flex-direction: column; 
+        transition: transform 0.4s ease; 
+        width: calc(20% - 0.75rem);
+        margin-bottom: 35px; /* ESPAÇO ENTRE AS LINHAS */
+         }
+
+
+    .segunda-linha{
+    margin-top: -40px;
+}
+
+   /* INFORMAÇÕES DOS VÍDEOS */
+
+.video-info{
+
+    padding: 5px 14px 22px;
+
+    text-align: left;
+
+    background: transparent;
+}
+
+
+.video-info p{
+
+    color: #bdbdbd;
+
+    font-size: 11px;
+
+    line-height: 1.3;
+
+    font-family: 'Poppins', sans-serif;
+
+    width: 100%;
+
+    margin: 0;
+
+    display: -webkit-box;
+
+    -webkit-line-clamp: 3;
+
+    -webkit-box-orient: vertical;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+}
+
+    .video-wrapper { 
+        position: relative; 
+        width: 100%; 
+        padding-top: 177.77%; 
+        overflow: hidden; }
+
+    .video-card iframe { 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        width: 100%; 
+        height: 100%; 
+        border: none; 
+        z-index: 1; }
+
+    .video-card:hover { 
+        transform: scale(1.05); 
+        transition: transform 0.3s ease; }
+
+/* =========================
+
+/* SUBTITULO */
+
+.subtitulo{
+
+    color: #d8d8d8;
+
+    font-size: 17px;
+
+    margin-bottom: 70px;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-weight: 400;
+}
+/* =========================
+BLUR FIXO INFERIOR
+========================= */
+
+.bottom-blur {
+
+    position: fixed;
+
+    left: 50%;
+    transform: translateX(-50%);
+
+    bottom: -60px;
+
+    width: 140vw;
+    height: 110px;
+
+    pointer-events: none;
+
+    z-index: 9999;
+
+    overflow: hidden;
+
+    /* transparência suave */
+   background: rgba(180,180,180,0.06);
+
+    /* blur real */
+    backdrop-filter: blur(22px);
+    -webkit-backdrop-filter: blur(22px);
+
+    /* degradê transparente */
+    mask-image: radial-gradient(
+        ellipse at center,
+        rgba(0,0,0,0.95) 20%,
+        rgba(0,0,0,0.55) 45%,
+        rgba(0,0,0,0.18) 70%,
+        transparent 100%
+    );
+
+    -webkit-mask-image: radial-gradient(
+        ellipse at center,
+        rgba(0,0,0,0.95) 20%,
+        rgba(0,0,0,0.55) 45%,
+        rgba(0,0,0,0.18) 70%,
+        transparent 100%
+    );
+}
+    /* NAVBAR (fica por cima) */
+.navbar {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 1400px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px 30px;
+    background: rgba(0,0,0,0.7);
+    border-radius: 15px;
+
+    z-index: 999;
+}
+
+.logo {
+    color: #d8d8d8;
+    font-size: 22px;
+}
+/* MENU MOBILE */
+
+.menu-toggle{
+    display: none;
+    font-size: 34px;
+    color: #d4af37;
+    cursor: pointer;
+}
+.nav-links a {
+    color: #d8d8d8;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.nav-links a:hover {
+    color: white;
+}
+
+
+.btn {
+
+    background: #bb1302;
+
+    color: #d8d8d8 !important;
+
+    padding: 10px 22px;
+
+    border-radius: 8px;
+
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    transition: 
+    background 0.3s ease,
+    transform 0.3s ease;
+
+}
+
+/* HOVER APENAS DO BOTÃO */
+
+.btn:hover{
+
+    background: #bb1302;
+
+    transform: scale(1.05);
+
+    color: white !important;
+}
+
+
+.banner{
+    min-height: 100vh;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+
+    padding: 120px 40px 80px;
+
+    position: relative;
+}
+
+.fade-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    z-index: 5;
+    pointer-events: none;
+}
+
+/* IMAGENS */
+.slide {
+    
+    position: absolute;
+    width: 100%;
+   height: 100%;
+    object-fit: cover; /* preenche a tela sem deformar */
+    
+    top: 0;
+    left: 0;
+
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    
+ /* 👇 FADE REAL (transparência) */
+    -webkit-mask-image: linear-gradient(to bottom, black 75%, transparent 100%);
+    mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+}
+
+.slide.active {
+    opacity: 1;
+}
+
+/* ESCURECER (cinematográfico) */
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 88%;
+
+    /* background: linear-gradient(to right, rgba(0,0,0,0.8), transparent);
+    z-index: 2;*/
+}
+
+.categorias {
+    position: absolute;
+    bottom: -4px; /* encosta no fade */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap:44px;
+    z-index: 6;
+}
+
+.categoria {
+    text-align: center;
+    color: #d8d8d8;;
+    font-size: 12px;
+    width: 80px;
+
+}
+
+.categoria img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+   border: none;
+    transition: 0.3s;
+}
+
+.categoria img:hover {
+    transform: scale(1.1);
+    border-color: #d4af37;
+}
+
+.categoria p {
+    margin-top: 8px;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+.cta-banner {
+    position: absolute;
+    bottom: -110px; /* fica logo abaixo das bolinhas */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 7;
+}
+
+.btn-orcamento {
+    background: #bb1302;
+    color: #d8d8d8;
+    padding: 12px 28px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn-orcamento:hover {
+    transform: scale(1.05);
+    background: #bb1302;
+    color: white;
+}
+.whatsapp-float{
+    position: fixed;
+    bottom: 40px;
+    right: 70px;
+
+    width: 58px;
+    height: 58px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: transparent; /* fundo transparente */
+    border: none; /* remove borda */
+    box-shadow: none; /* remove sombra */
+
+    border-radius: 50%;
+
+    z-index: 9999;
+
+    opacity: 0;
+    visibility: hidden;
+
+    transform: translateY(20px);
+
+    transition: all 0.5s ease;
+    overflow: visible;
+}
+
+.whatsapp-float.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+
+}
+
+.whatsapp-float img {
+  width: 64px;
+
+    height: 64px;
+
+    object-fit: contain;
+     margin-top: 0;
+
+    background: transparent; /* garante transparência */
+}
+
+
+
+/* =========================
+QUEM SOMOS
+========================= */
+
+.quem-somos{
+
+    background:  #0b0f14;
+
+    padding: 48px 2px;
+
+    overflow: hidden;
+}
+
+/* CONTAINER */
+
+.qs-container{
+
+    max-width: 1250px;
+
+    margin: auto;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 80px;
+    margin-top: -25px;
+}
+
+/* FOTO */
+
+.qs-foto{
+
+    flex: 1;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.qs-foto img{
+
+    width: 100%;
+
+    max-width: 430px;
+
+    border-radius: 12px;
+
+    object-fit: cover;
+
+    transition: 0.4s ease;
+
+    box-shadow:0 0 30px rgba(0,0,0,0.45);
+}
+
+.qs-foto img:hover{
+
+    transform: scale(1.02);
+}
+
+/* TEXTO */
+
+.qs-texto{
+
+    flex: 1;
+
+    color: white;
+
+    text-align: left;
+}
+
+/* TITULO */
+
+.qs-texto h2{
+
+    font-size: 28px;
+
+    margin-bottom: 30px;
+
+    font-family: 'Poppins';
+
+    text-transform: uppercase;
+
+    line-height: 1.1;
+
+    margin-top: 5px;
+}
+
+/* PARÁGRAFOS */
+
+.qs-texto p{
+
+    font-size: 15px;
+
+    line-height: 1.9;
+
+    color: #d8d8d8;
+
+    margin-bottom: 22px;
+
+    font-family: 'Poppins';
+
+    font-weight: 300;
+}
+
+/* =========================
+EMPRESAS
+========================= */
+
+.empresas{
+
+    width: 100%;
+
+    min-height: 411px;
+
+    padding-top: 57px;
+
+    padding-bottom: 55px;
+
+    background: #0b0f14;
+
+    overflow: hidden;
+
+    position: relative;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+}
+/* TITULO */
+
+.empresas h2{
+
+    text-align: center;
+
+    color: white;
+
+    font-size: 28px;
+
+    margin-bottom: 70px;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-weight: 600;
+
+    margin-top: 84px;
+}
+
+/* AREA DO SLIDER */
+
+.logos-slider{
+
+    width: 100%;
+
+    overflow: hidden;
+
+    position: relative;
+
+    padding: 0 220px;
+}
+/* FADE NAS LATERAIS */
+.logos-slider::before,
+.logos-slider::after{
+
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+
+    width: 500px;
+
+    height: 100%;
+
+    z-index: 5;
+
+    pointer-events: none;
+}
+
+.logos-slider::before{
+
+    left: 0;
+
+    background: linear-gradient(
+        to right,
+
+        #0b0f14 0%,
+
+        #0b0f14 30%,
+
+        rgba(11,15,20,0.98) 45%,
+
+        rgba(11,15,20,0.92) 58%,
+
+        rgba(11,15,20,0.75) 72%,
+
+        rgba(11,15,20,0.35) 88%,
+
+        transparent 100%
+    );
+}
+
+.logos-slider::after{
+
+    right: 0;
+
+    background: linear-gradient(
+        to left,
+
+        #0b0f14 0%,
+
+        #0b0f14 30%,
+
+        rgba(11,15,20,0.98) 45%,
+
+        rgba(11,15,20,0.92) 58%,
+
+        rgba(11,15,20,0.75) 72%,
+
+        rgba(11,15,20,0.35) 88%,
+
+        transparent 100%
+    );
+}
+
+/* TRACK */
+
+.logos-track{
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 11px;
+
+    width: max-content;
+
+    animation: slideLogos 42s linear infinite;
+}
+
+/* LOGOS */
+
+.logos-track img{
+
+    height: 173px;
+
+    width: auto;
+
+    object-fit: contain;
+
+    opacity: 0.75;
+
+    transition: 0.4s ease;
+
+    
+}
+
+/* HOVER */
+
+.logos-track img:hover{
+
+    opacity: 1;
+
+    transform: scale(1.08);
+
+    filter: grayscale(0%);
+}
+
+/* =========================
+PLANOS
+========================= */
+
+.planos-carreira{
+
+    width: 100%;
+
+    padding: 130px 40px;
+
+    background: #0b0f14;
+
+    color: white;
+}
+
+/* HEADER */
+
+.planos-header{
+
+    text-align: center;
+
+    margin-bottom: 70px;
+}
+
+.planos-header h2{
+
+    font-size: 28px;
+
+    line-height: 1.1;
+
+    font-family: 'Poppins';
+
+    font-weight: 600;
+
+    margin-bottom: 28px;
+
+    color: white;
+}
+
+.planos-header h2 span{
+
+    display: block;
+
+    color: #cfcfcf;
+}
+
+.planos-badge{
+
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding: 9px 28px;
+
+    border: 1px solid #bb1302;
+
+    border-radius: 999px;
+
+    color: #d8d8d8;
+
+    font-size: 15px;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+/* GRID */
+
+.planos-grid{
+
+    max-width: 1450px;
+
+    margin: auto;
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 30px;
+
+    flex-wrap: wrap;
+}
+
+/* CARD */
+.plano-card{
+
+    width: 320px;
+     min-height: 850px;
+
+    background: rgba(255,255,255,0.03);
+
+   border: 1px solid rgba(187,19,2,0.18);
+
+    border-radius: 24px;
+
+    padding: 28px 24px;
+
+    position: relative;
+
+    overflow: hidden;
+
+    backdrop-filter: blur(12px);
+
+    transition:
+    transform 0.4s ease,
+    border 0.4s ease,
+    box-shadow 0.4s ease;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* HOVER */
+
+.plano-card:hover{
+
+    transform: translateY(-10px);
+
+      border: 1px solid rgba(187,19,2,0.5);
+
+    box-shadow:
+    0 0 40px rgba(255,106,0,0.12);
+}
+
+/* CARD CENTRAL */
+
+.plano-card.destaque{
+
+    transform: scale(1.04);
+
+     border: 1px solid rgba(187,19,2,0.45);
+}
+
+/* TOPO */
+
+.plano-topo{
+
+    text-align: center;
+
+    margin-bottom: 35px;
+}
+
+/* ICON */
+
+.plano-icon{
+
+    font-size: 62px;
+
+    font-weight: 700;
+
+    line-height: 1;
+
+    margin-bottom: 10px;
+
+    font-family: 'Poppins', sans-serif;
+}
+.plano-icon img{
+
+    width: 58px;
+
+    height: 58px;
+
+    object-fit: contain;
+
+    display: block;
+
+    margin: auto;
+}
+.essencial{
+    color: #ff6a00;
+}
+
+.autoridade{
+    color: #f1f1f1;
+}
+
+.dominancia{
+    color: #d6b16f;
+}
+
+/* TITULO */
+
+.plano-topo h3{
+
+    font-size: 28px;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-weight: 500;
+}
+
+/* CONTEÚDO */
+
+.plano-conteudo h4{
+
+    font-size: 22px;
+
+    line-height: 1.15;
+
+    margin-bottom: 20px;
+
+    color: #e8e8e8;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+.plano-conteudo p{
+
+    font-size: 15px;
+
+    line-height: 1.7;
+
+    color: #bcbcbc;
+
+    margin-bottom: 30px;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+/* LISTA */
+
+.plano-conteudo ul{
+
+    list-style: none;
+
+    padding: 0;
+
+    margin: 0 0 35px;
+}
+
+.plano-conteudo li{
+
+    position: relative;
+
+    padding-left: 28px;
+
+    margin-bottom: 18px;
+
+    color: #e0e0e0;
+
+    line-height: 1.5;
+
+    font-size: 15px;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+.plano-conteudo li::before{
+
+    content: "✓";
+
+    position: absolute;
+
+    left: 0;
+
+    top: 0;
+
+    color: #bb1302;
+
+    font-weight: bold;
+}
+.plano-conteudo ul{
+
+    width: 100%;
+
+    text-align: left;
+
+    padding-left: 8px;
+}
+
+.plano-conteudo li{
+
+    text-align: left;
+
+    justify-content: flex-start;
+}
+/* TAG */
+
+.mini-tag{
+
+    display: inline-block;
+
+    padding: 10px 18px;
+
+    border-radius: 999px;
+
+    border: 1px solid rgba(255,255,255,0.2);
+
+    color: #d0d0d0;
+
+    font-size: 13px;
+
+    font-family: 'Poppins', sans-serif;
+
+    align-self: flex-start;
+
+    margin-top: 32px; /* EMPURRA PRA BAIXO */
+
+    position: relative;
+
+    left: 50%;
+
+    transform: translateX(-50%); /* CENTRALIZA */
+}
+
+.mini-tag-direita{
+    margin-top: 193px;
+}
+.mini-tag-esquerda{
+    margin-top: 180px;
+    color: #d0d0d0;
+    font-size: 13px;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    display: inline-block;
+    padding: 10px 18px;
+    font-family: 'Poppins', sans-serif;
+    align-self: center;
+
+}
+
+
+.plano-conteudo{
+
+    display: flex;
+
+    flex-direction: column;
+
+    flex: 1;
+}
+/* BOTÃO */
+
+.btn-plano{
+
+    width: 100%;
+
+    height: 58px;
+
+    border-radius: 14px;
+
+    background: linear-gradient(
+        135deg,
+        #bb1302,
+        #bb1302
+    );
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-decoration: none;
+
+    color:#d8d8d8;
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+    letter-spacing: 0.5px;
+
+    transition:
+    transform 0.3s ease,
+    opacity 0.3s ease;
+
+    font-family: 'Poppins', sans-serif;
+    margin-top: 15px;
+}
+.btn-planoo{
+
+    width: 100%;
+
+    height: 58px;
+
+    border-radius: 14px;
+
+    background: linear-gradient(
+        135deg,
+        #bb1302,
+        #bb1302
+    );
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-decoration: none;
+
+    color:#d8d8d8;
+
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+    letter-spacing: 0.5px;
+
+    transition:
+    transform 0.3s ease,
+    opacity 0.3s ease;
+
+    font-family: 'Poppins', sans-serif;
+    margin-top: auto;
+}
+.btn-planoo:hover{
+
+    transform: scale(1.03);
+
+    opacity: 0.95;
+}
+.btn-plano:hover{
+
+    transform: scale(1.03);
+
+    opacity: 0.95;
+}
+/* =========================
+FOOTER
+========================= */
+
+.footer{
+
+    background: #111820;
+
+    color: white;
+
+    overflow: hidden;
+}
+
+/* =========================
+TOPO
+========================= */
+
+.footer-top{
+
+    padding: 33px 59px;
+
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+
+/* GRID */
+
+.footer-grid{
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 60px;
+
+    max-width: 1400px;
+
+    margin: auto;
+}
+
+/* TITULOS */
+
+.footer-col h3{
+
+    font-size: 20px;
+
+    margin-bottom: 19px;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-weight: 600;
+}
+
+/* LINKS */
+
+.footer-col a{
+
+    display: block;
+
+    color: #bdbdbd;
+
+    text-decoration: none;
+
+    margin-bottom: 14px;
+
+    font-size: 14px;
+
+    transition: 0.3s;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer-col a:hover{
+
+    color: #d4af37;
+
+    transform: translateX(4px);
+}
+
+/* TEXTO */
+
+.footer-col p{
+
+    color: #bdbdbd;
+
+    line-height: 1.8;
+
+    font-size: 14px;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+/* =========================
+BOTTOM
+========================= */
+
+.footer-bottom{
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 43px 28px;
+
+    background: #0b0f14;
+
+    position: relative;
+}
+
+/* LOGO */
+
+.footer-logo{
+
+    font-size: 16px;
+
+    font-weight: 700;
+
+    color: white;
+
+    font-family: 'Poppins', sans-serif;
+
+    letter-spacing: 2px;
+    margin-left: 109px;
+}
+
+/* COPYRIGHT */
+
+.footer-copy{
+
+    position: absolute;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    color: #bdbdbd;
+
+    font-size: 11px;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+/* REDES */
+
+.footer-social{
+
+    display: flex;
+
+    gap: 20px;
+    margin-right: 102px;
+}
+
+.footer-social a{
+
+    width: 41px;
+
+    height: 35px;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background: rgba(255,255,255,0.04);
+
+    color: white;
+
+    text-decoration: none;
+
+    transition: 0.3s;
+
+    font-size: 17px;
+}
+
+.footer-social a:hover{
+
+    background: #d4af37;
+
+    transform: translateY(-4px);
+}
+
+
+ 
+  /* NOTIFICAÇÃO WHATSAPP */
+
+.notif{
+
+    position: absolute;
+
+    top: 3px;
+    right: 0px;
+
+    background: linear-gradient(to bottom, #bb1302, #bb1302);
+
+    color: white;
+
+    width: 20px;
+    height: 18px;
+
+    border-radius: 48%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 10px;
+
+    font-weight: bold;
+
+    font-family: Arial, sans-serif;
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.35);
+
+    animation: pulseNotif 1.5s infinite;
+}
+  
+      .highlight-text {
+        font-family: 'Poppins', sans-serif;
+        font-size: 2rem;
+        font-weight: 600;
+        color: #e91e63;
+        text-align: center;
+        margin-top: 2rem;
+        letter-spacing: 1px;
+     /*    text-transform: uppercase;      deixa o texto grande */
+       
+      }
+.ver-mais-container,
+.ver-mais-containerr{
+    display: none;
+}
+      .btn-contact {
+        display: inline-block;
+        background: #e91e63;
+        color: #fff;
+        padding: 0.8rem 2rem;
+        border-radius: 30px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: background 0.3s ease;
+        margin-top: 1rem;
+      }
+
+      .btn-contact:hover {
+        background: #b31547;
+      }
+
+ 
+
+   @keyframes fadeExpand {
+      0% {
+        opacity: 0;
+        transform: scaleY(0.95);
+      }
+      100% {
+        opacity: 1;
+        transform: scaleY(1);
+      }
+    } 
+
+/* ANIMAÇÃO */
+
+@keyframes slideLogos{
+
+    from{
+        transform: translateX(0);
+    }
+
+    to{
+        transform: translateX(-50%);
+    }
+}
+/* ANIMAÇÃO */
+
+@keyframes pulseNotif{
+
+    0%{
+        transform: scale(1);
+    }
+
+    50%{
+        transform: scale(1.15);
+    }
+
+    100%{
+        transform: scale(1);
+    }
+}
+
+@media (max-width: 768px) {
+
+    
+
+    .nav-links a {
+        margin: 10px 0;
+    }
+
+.slide{
+
+    width: 100%;
+    height: 80%;
+
+    object-fit: cover;
+
+    object-position: center;
+}
+
+/* MOBILE */
+.slide:nth-of-type(1){
+    content: url('https://i.imgur.com/4cVZdHx.jpeg');
+}
+
+.slide:nth-of-type(2){
+    content: url('https://i.imgur.com/WepwoVO.jpeg');
+}
+
+.slide:nth-of-type(3){
+    display: none;
+}
+
+  .overlay{
+        height: 100%;
+    }
+
+
+  .coringa h2 {
+    font-size: 16px; /* tamanho apenas para mobile */
+    font-family: 'Poppins', sans-serif;
+    margin-top: 44PX
+}
+
+.descriptionn {
+    font-size: 10px; /* tamanho apenas para mobile */
+    font-family: 'Poppins', sans-serif;
+    color: #fff9e2;
+}
+.description  {
+    font-size: 10px; /* tamanho apenas para mobile */
+    font-family: 'Poppins', sans-serif;
+    color: #fff9e2;
+}
+ .mk_of h2 {
+     font-size: 16px; /* tamanho apenas para mobile */
+    font-family: 'Poppins', sans-serif;
+    margin-top: -21px
+  }
+
+
+    .planos-carreira{
+
+        padding: 90px 22px;
+    }
+
+    .planos-header h2{
+
+        font-size: 16px;
+    }
+
+    .planos-badge{
+
+        font-size: 10px;
+
+        padding: 8px 20px;
+
+        line-height: 1.5;
+    }
+
+  
+
+    .plano-card.destaque{
+
+        transform: none;
+    }
+
+    .plano-topo h3{
+
+        font-size: 30px;
+    }
+
+  
+
+    .empresas{
+
+        padding: 70px 0;
+    }
+
+    .empresas h2{
+
+        font-size: 16px;
+
+        padding: 9px 20px;
+
+        line-height: 1.5;
+      margin-top: -41px;
+      
+    }
+
+    .logos-track{
+
+        gap: 60px;
+        margin-top: -48px;
+    }
+
+    .logos-track img{
+
+        width: 120px;
+    }
+
+    .logos-slider::before,
+    .logos-slider::after{
+
+        width: 60px;
+    }
+
+  .portfolio {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+
+    gap: 0px 0;
+}
+
+  .video-card {
+    align-self: flex-start;
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+    width: calc(50% - 10px);
+
+    max-width: calc(50% - 10px);
+
+  }
+
+  .video-wrapper {
+
+    position: relative;
+
+    width: 100%;
+
+    aspect-ratio: 9 / 16;
+
+    overflow: hidden;
+
+    border-radius: 12px;
+}
+
+.video-wrapper iframe {
+
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+   
+
+    height: 100%;
+
+    border: none;
+}
+
+
+  .subtitle {
+    font-size: 10px;
+    margin-top: -80px;
+  }
+
+  .whatsapp-button {
+    width: 52%;
+    padding: 7px 31px;
+    font-size: 18px;
+  }
+
+  .whatsapp-icon {
+    width: 24px;
+  }
+
+ 
+  .hero-content h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .modal-content {
+    width: 95%;
+    height: 60%;
+  }
+
+.whatsapp-text {
+ font-size: 14px;
+}
+.w-t {
+ font-size: 14px;
+}
+
+.highlight {
+ font-size: 14px;
+}
+
+.banner{
+        min-height: 990px;
+        padding-bottom: 220px;
+    }
+
+    
+
+.categorias{
+    gap: 18px;
+    bottom: 121px;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.categoria{
+    width: 37px;
+}
+
+.categoria img{
+    width: 40px;
+    height: 40px;
+}
+.categoria p {
+    font-size: 8px;
+    letter-spacing: 0.5px;
+    margin-top: 5px;
+}
+
+.cta-banner{
+    bottom: -46px;
+}
+
+.btn-orcamento{
+    font-size: 12px;
+    padding: 11px 22px;
+}
+
+/* NAVBAR MOBILE */
+
+.navbar{
+
+    width: calc(100% - 24px);
+
+    margin: 12px auto;
+
+    padding: 14px 16px;
+
+    border-radius: 18px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    background: rgba(0,0,0,0.7);
+
+    
+}
+
+/* LOGO */
+
+.logo{
+
+    font-size: 14px;
+
+    white-space: nowrap;
+}
+
+/* REMOVE MENU HAMBURGUER */
+
+.menu-toggle{
+    display: block;
+
+    font-size: 28px;
+
+    color: white;
+
+    cursor: pointer;
+
+    z-index: 1001;
+}
+
+/* LINKS */
+
+.nav-links{
+
+    position: absolute;
+
+    top: 75px;
+
+    right: 0;
+
+    width: 220px;
+
+    background: rgba(0,0,0,0.96);
+
+    backdrop-filter: blur(12px);
+
+    border-radius: 16px;
+
+    padding: 20px;
+
+    display: none;
+
+    flex-direction: column;
+
+    gap: 18px;
+
+    z-index: 1000;
+    align-items: center;
+
+  text-align: center;
+}
+
+/* TEXO */
+
+.nav-links a{
+
+    margin: 0;
+
+    font-size: 10px;
+
+    white-space: nowrap;
+    width: 100%;
+
+    text-align: center;
+}
+
+/* BOTÃO */
+
+.nav-links .btn{
+
+    padding: 8px 14px;
+
+    font-size: 11px;
+
+    border-radius: 10px;
+}
+.nav-links.active{
+    display: flex;
+}
+
+.whatsapp-float img {
+    width: 48px !important;
+    height: 48px !important;;
+   right: -53px !important;
+   position: fixed !important;
+ }
+
+.notif {
+    width: 15px;
+    height: 15px;
+      font-size: 8px;
+      right: -51px;
+}
+
+‪.whatsapp-float{
+
+        bottom: 90px !important;
+
+        z-index: 9999 !important;}
+  
+
+.plano-card{
+
+    width: calc(50% - 10px);
+
+    max-width: 186px;
+
+    min-width: 160px;
+
+    height: 503px !important;
+
+    min-height: unset !important;
+
+    padding: 14px 10px;
+
+    border-radius: 18px;
+}
+
+
+.planos-grid{
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: 14px;
+
+    overflow-x: visible;
+}
+
+.plano-topo h3{
+    font-size: 15px;
+}
+
+.plano-conteudo h4{
+    font-size: 10px;
+    line-height: 1.3;
+}
+
+.plano-conteudo p{
+    font-size: 7px;
+    line-height: 1.5;
+}
+
+.plano-conteudo li{
+    font-size: 7px;
+    padding-left: 18px;
+    margin-bottom: 10px;
+}
+
+.btn-plano,
+.btn-planoo{
+    height: 29px;
+    font-size: 7px;
+}
+
+.plano-icon img{
+    width: 28px;
+    height: 29px;
+}
+
+.mini-tag{
+  margin-top: 6px;
+  color: #d0d0d0;
+  font-size: 7px;
+  border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    display: inline-block;
+    padding: 10px 18px;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+.mini-tag-direita{
+    font-size: 7px;
+    padding: 10px 18px;
+    margin-top: 66px;
+     color: #d0d0d0;
+   border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    display: inline-block;
+font-family: 'Poppins', sans-serif;
+
+}
+.mini-tag-esquerda{
+
+    margin-top: 75px;
+    color: #d0d0d0;
+    font-size: 7px;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    display: inline-block;
+    padding: 10px 18px;
+    font-family: 'Poppins', sans-serif;
+    align-self: center;
+  }
+
+.hidden-mobile{
+    display: none;
+}
+
+.hidden-mobile.show{
+    display: block;
+}
+.hidden-mobilee{
+    display: none;
+}
+
+.hidden-mobilee.show{
+    display: flex;
+}
+.ver-mais-container{
+
+    width: 100%;
+
+    display: flex;
+
+    justify-content: center;
+
+    margin-top: 18px;
+
+    padding-right: 12px;
+}
+.ver-mais-containerr{
+
+    width: 100%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    margin-top: -20px;
+
+    padding-right: 25px;
+}
+
+.ver-mais-texto{
+
+    font-size: 10px;
+
+    font-family: 'Poppins', sans-serif;
+
+    color: white;
+
+    cursor: pointer;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 5px;
+
+    transition: 0.3s ease;
+    margin-top: -166px;
+}
+
+.ver-mais-texto:hover{
+
+    opacity: 0.7;
+}
+
+.ver-mais-textoo{
+
+    font-size: 10px;
+
+    font-family: 'Poppins', sans-serif;
+
+    color: white;
+
+    cursor: pointer;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 5px;
+
+    transition: 0.3s ease;
+    margin-top: 17px;
+}
+
+.ver-mais-textoo:hover{
+
+    opacity: 0.7;
+}
+
+
+.seta-vermelha{
+
+    color: #bb1302;
+
+    font-size: 27px;
+
+    font-weight: bold;
+
+    margin-top: -25px;
+}
+.seta-vermelhaa{
+
+    color: #bb1302;
+
+    font-size: 27px;
+
+    font-weight: bold;
+
+    margin-top: -25px;
+}
+.hidden-mobilee{
+    display: none;
+}
+
+.hidden-mobilee.show{
+    display: block;
+}
+.video-info p {
+    color: #bdbdbd;
+    font-size: 10px;
+    line-height: 1.3;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-height: 55px;
+}
+
+  .video-destaque-especial {
+    position: relative !important;
+    top: -40px !important;
+  }
+
+.footer{
+margin-top: -70px;
+
+}
+
+}
+/* =========================
+MOBILE
+========================= */
+
+@media (max-width: 900px){
+
+.footer-logo{
+    margin-left: 0 !important;
+}
+
+.footer-social{
+    margin-right: 0 !important;
+}
+
+    .qs-container{
+
+        flex-direction: column;
+
+        gap: 40px;
+    }
+
+    .qs-texto{
+
+        text-align: center;
+        padding: 12PX 38PX;
+    }
+
+    .qs-texto h2{
+
+        font-size: 16px;
+    }
+
+    .qs-texto p{
+
+        font-size: 10px;
+
+        line-height: 2.2;
+         text-align: left;
+
+    }
+
+    .qs-foto img{
+
+        max-width: 320px;
+    }
+
+
+    .footer-top{
+
+        padding: 17px 1px;
+    }
+
+    .footer-grid{
+
+        grid-template-columns: 1fr;
+
+        gap: 16px;
+        margin-top: 20px;
+    }
+
+    .footer-bottom{
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+
+    gap: 18px;
+
+    padding: 35px 20px;
+}
+.footer-social{
+
+    justify-content: center;
+
+    width: 100%;
+}
+.footer-logo{
+
+    width: 100%;
+
+    text-align: center;
+}
+    .footer-copy{
+
+        position: relative;
+
+        left: auto;
+
+        transform: none;
+
+        text-align: center;
+        font-size: 10PX;
+        margin-top: 15px;
+    }
+
+
+    .footer-logo{
+
+        font-size: 16px;
+    }
+.footer-col h3 {
+font-size: 16px;
+    margin-bottom: 19px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+
+}
+.footer-col a {
+ display: block;
+    color: #bdbdbd;
+    text-decoration: none;
+    margin-bottom: 14px;
+    font-size: 10px;
+    transition: 0.3s;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+.footer-col p {
+color: #bdbdbd;
+    line-height: 1.8;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+padding: 5PX 5PX;
+}
+
+}
+
+</style>
+</head>
 <script>
+const menuToggle = document.querySelector('.menu-toggle');
+
+const navLinks = document.querySelector('.nav-links');
+
+menuToggle.addEventListener('click', () => {
+
+    navLinks.classList.toggle('active');
+});
+  function mostrarMaisVideos() {
+
+    let videos = document.querySelectorAll('.hidden-mobile');
+
+    videos.forEach(video => {
+        video.classList.add('show');
+    });
+
+    document.querySelector('.ver-mais-container').style.display = 'none';
+}
+
+function mostrarMaisVideoss() {
+
+    let videos = document.querySelectorAll('.hidden-mobilee');
+
+    videos.forEach(video => {
+        video.classList.add('show');
+    });
+
+    document.querySelector('.ver-mais-containerr').style.display = 'none';
+}
+
+
+window.addEventListener("load", () => {
+
+    setTimeout(() => {
+
+        document
+          .querySelector(".whatsapp-float")
+          .classList.add("show");
+
+    }, 3000);
+
+});
+
+/* CARROSSEL AUTOMÁTICO */
+let slides = document.querySelectorAll('.slide');
+let index = 0;
+
+/* REMOVE slides escondidos */
+slides = Array.from(slides).filter(slide => {
+    return window.getComputedStyle(slide).display !== "none";
+});
+
+setInterval(() => {
+
+    slides[index].classList.remove('active');
+
+    index = (index + 1) % slides.length;
+
+    slides[index].classList.add('active');
+
+}, 4000);
   // Função para abrir o vídeo em alta qualidade
   function openModal(videoUrl) {
     document.getElementById("modalVideo").src = videoUrl;
@@ -370,437 +3167,9 @@
     if (event.target == document.getElementById("videoModal")) {
       closeModal();
     }
+
+
   }
 </script>
 </body>
 </html>
-<!-- Adicionando a frase e o botão ao final com mais estilo -->
-<section>
-<style>
-      /* Importing the Poppins font from Google Fonts */
-      @import url('https://fonts.google.com/selection');
-   
-     
-      .highlight-text {
-        font-family: 'Poppins', sans-serif;
-        font-size: 2rem;
-        font-weight: 600;
-        color: #e91e63;
-        text-align: center;
-        margin-top: 2rem;
-        letter-spacing: 1px;
-     /*    text-transform: uppercase;      deixa o texto grande */
-       
-      }
-
-      .btn-contact {
-        display: inline-block;
-        background: #e91e63;
-        color: #fff;
-        padding: 0.8rem 2rem;
-        border-radius: 30px;
-        text-decoration: none;
-        font-weight: 600;
-        transition: background 0.3s ease;
-        margin-top: 1rem;
-      }
-
-      .btn-contact:hover {
-        background: #b31547;
-      }
-    </style>
-<div class="top-bar">
-    “<span class="highlight">AUMENTE A PERCEPÇÃO DE VALOR DO SEU NEGÓCIO ATRAVÉS DO AUDIOVISUAL</span>”
-  </div>
-<style>
-    body 
-
-    .top-bar {
-      background-color: #fff;
-      padding: 20px;
-      text-align: center;
-      font-weight: bold;
-      font-size: 14px;
-      letter-spacing: 0.5px;
-      color: black;
-      font-family: 'Poppins', sans-serif;
-      font-weight: 600;
-      margin-top: 65px;
-      padding-left: 29px; 
-
-    }
-    
-  .highlight {
-
-  text-align: center;
- 
-  }
-
-
-
-  </style>
-<a class="wb" href="https://wa.me/5511948838756" target="_blank">
-<img alt="WhatsApp" class="w-i" src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"/>
-<span class="w-t">WhatsApp</span>
-</a>
-<div class="w-st">CAPTAÇÃO | EDIÇÃO | PÓS PRODUÇÃO</div>
-<style>
-    body {}
-
- .wb {
-    margin-top: 40px;
-    margin-bottom: 10px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #25D366;
-    color: white;
-    padding: 6px 31px;
-    border-radius: 40px;
-    text-decoration: none;
-    font-size: 22px;
-    font-weight: bold;
-    width: 233px;
-}
-
- .w-t {
-    display: inline-block;
-    filter: drop-shadow(1px 1px 1px black);
-    font-family: 'Poppins', sans-serif;
-    font-size: 17px;
-}
-
-.w-i {
-    filter: drop-shadow(1px 1px 2px black);
-    margin-right: 6px;
-    width: 17%;
-}
-
-.w-st {
-    margin-top: 0;
-    margin-bottom: 27px;
-    color: #A4F6BE;
-    font-size: 10px;
-    letter-spacing: 1px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    }
-
-  </style>
-<title>Quem somos?</title>
-</section>
-<head>
-<style>
-
-
-
-body {
-           /* font-family: Arial, sans-serif;
-            background-color: #111111;
-            color: #FFFFFF;
-            margin: 0;
-            padding: 0;
-            display: flex;*/
-            flex-direction: column;
-            align-items: center;
-            padding-left: 1px; /* Aumentando a margem lateral esquerda */
-            padding-right: 1px; /* Aumentando a margem lateral direita */
-        }
-
-      
-          header {
-              text-align: left;
-              padding: 50px 20px;
-              max-width: 900px; /* Deixando o texto mais estreito */
-              width: 100%;
-              margin: 0 auto;
-          }
-          header h1 {
-              font-size: 35px;
-              margin: -10px;
-              font-family: 'Poppins', sans-serif;
-              font-weight: 600;
-  
-          }
-          header p {
-              font-size: 17px;
-              margin-top: 20px;
-             font-family: 'Poppins', sans-serif;
-             font-weight: 400;
-          }
-          .team-container {
-            display: flex;
-              justify-content: center;
-              margin: 50px 0;
-              gap: 30px;
-              text-align: center;
-              flex-wrap: wrap;
-             /*  max-width: 1200px;*/
-             margin: 0 20px;
-              align-items: center;
-              float: CENTER;
-             
-        
-          }
-          .team-member {
-              width: 300px;
-              text-align: center;
-              margin-bottom: 20px;
-          }
-          .team-member img {
-              width: 300px;
-              height: 300px;
-              object-fit: cover;
-              border-radius: 0%;
-          }
-          .team-member h3 {
-              margin-bottom: 5px;
-              font-size: 20px;
-             font-family: 'Poppins';
-              font-weight: 400;
-          }
-          .team-member p {
-              margin-top: 5px;
-              font-size: 14px;
-              color: #AAAAAA;
-              white-space: nowrap;
-              font-family: sans-serif;
-             font-weight: 600;
-             font-size: 12px;
-          }
-          .roles {
-              font-size: 14px;
-              color: #AAAAAA;
-              margin-top: 5px;
-              white-space: nowrap;
-          }
-      </style>
-</head>
-<body>
-<header>
-<center> <h1>QUEM SOMOS?</h1>
-<p>Vitor Matos e Stefany Lima, somos noivos e apaixonados pelo audiovisual.</p>
-<p>Lideramos uma produtora de mídia com foco em posicionamento de marca e temos uma visão clara: Buscamos aumentar a percepção de valor dos nossos clientes para que eles possam vender mais caro e atrair os clientes certos. Mais do que produzir vídeos e filmes, temos um desejo genuíno em fazer a diferença no negócio de vocês, com respeito, compromisso, visão empresarial e criativa.</p>
-<p>Acreditamos na produção cinematográfica, sempre vamos nos esforçar para criar um trabalho original, e personalizado. É isso que nos move, é isso que nos mantém acordados de dia, e muitas vezes, à noite.</p></center>
-</header>
-<section class="team-container">
-<div class="team-member">
-<h3>Vitor Matos</h3>
-<img alt="Vitor Matos" src="https://imgur.com/C8JqNx6.jpg"/>
-<p class="roles">Diretor Criativo | Editor Sênior | Filmmaker</p>
-</div>
-<div class="team-member">
-<h3>Stefany Lima</h3>
-<img alt="Stefany Lima" src="https://imgur.com/BXH8RJJ.jpg"/>
-<p class="roles">Diretora Criativa | Roteirista | Comunicadora</p>
-</div>
-</section>
-<body>
-<div class="container2">
-<h1>PERGUNTAS FREQUENTES</h1>
-<details>
-<summary>1. Como eu faço para contratar vocês?</summary>
-<p>Entre em contato pelo WhatsApp 11948838756 e fale conosco agora mesmo.</p>
-</details>
-<details>
-<summary>2. Caso o projeto exija, vocês têm equipe?</summary>
-<p>Sim, contamos com muitos profissionais parceiros para cada etapa das produções caso precise. O seu projeto seria totalmente personalizado.</p>
-</details>
-<details>
-<summary>3. Fazem parcerias com outra empresa?</summary>
-<p>Sim, se você tem um bom plano que favorece os dois CNPJs, estamos à disposição.</p>
-</details>
-<details>
-<summary>4. Quero trabalhar com vocês, como faço?</summary>
-<p>Envie seu currículo e portfólio de trabalho para o e-mail: contato.stefany.batista.lima@gmail.com</p>
-</details>
-</div>
-</body>
-<style>
-
-  body {
-      font-family: Poppins, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #000;
-      color: white;
-      font-weight: 400;
-    }
-
-    .container2 {
-      max-width: 700px;
-      margin: 0 auto;
-      padding: 40px 20px;
-      text-align: left;
-    }
-
-    .container2 h1 {
-      text-align: center;
-      margin-bottom: 20px;
-
-    }
-
-    details {
-      background-color: #6495ED;
-      border-radius: 8px;
-      margin-bottom: 10px;
-      padding: 10px 15px;
-      cursor: pointer;
-      overflow: hidden;
-    }
-
-    summary {
-      font-size: 17px;
-      outline: none;
-    }
-
-    summary::-webkit-details-marker {
-      margin-right: 10px;
-    }
-
-    details[open] summary {
-      color: #fff;
-    }
-
-    details p {
-      margin-top: 10px;
-      color: #f0f0f0;
-      animation: fadeExpand 0.4s ease-in-out;
-    }
-
-    @keyframes fadeExpand {
-      0% {
-        opacity: 0;
-        transform: scaleY(0.95);
-      }
-      100% {
-        opacity: 1;
-        transform: scaleY(1);
-      }
-    }
-  </style>
-<div class="pc">
-<p> Copyright © 2025 Todos os direitos reservados.</p>
-</div>
-<style>
-  body
-
- .pc {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
-    font-family: poppins, sans-serif;
-    height: 5vh;
-    font-size: 13px;
-} 
-
-@media (max-width: 768px) {
-  .portfolio {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .video-card {
-    width: calc(50% - 0.75rem);
-  }
-
-  .video-wrapper {
-    padding-top: 177.77%;
-  }
-
-  .title {
-    font-size: 61px;
-    top: -60px;
-  }
-
-  .subtitle {
-    font-size: 10px;
-    margin-top: -80px;
-  }
-
-  .whatsapp-button {
-    width: 52%;
-    padding: 7px 31px;
-    font-size: 18px;
-  }
-
-  .whatsapp-icon {
-    width: 24px;
-  }
-
-  .team-member {
-    width: 90%;
-  }
-
-  .team-member img {
-    width: 100%;
-    height: auto;
-  }
-
-  header h1 {
-    font-size: 25px;
-  }
-
-  header p {
-    font-size: 14px;
-  }
-
-  .hero-content h1 {
-    font-size: 1.8rem;
-  }
-
-  .hero-content p {
-    font-size: 1rem;
-  }
-
-  .modal-content {
-    width: 95%;
-    height: 60%;
-  }
-
-.container2 h1 {
-  font-size: 20px;
-
-} 
-
-
-.container2 {
-    max-width: 700px;
-    margin: 0 auto;
-    padding: 41px 51px;
-    text-align: left;
-}
-
-.container2 summary {
- font-size: 12px;
-  outline: none;
-
-} 
-.container2 p  {
- font-size: 12px;
-  outline: none;
-
-} 
-.pc p  {
- font-size: 10px;
-  outline: none;
-
-}
-.whatsapp-text {
- font-size: 14px;
-}
-.w-t {
- font-size: 14px;
-}
-
-.highlight {
- font-size: 14px;
-}
-}
-
-</style>
-</body>
